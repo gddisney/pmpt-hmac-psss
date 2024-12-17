@@ -1,6 +1,4 @@
 # pmpt-hmac-psss
-Here is the **README.md** for your PMPT project:
-
 ---
 
 # **PMPT: Probabilistic Modular Point Transformation**
@@ -47,19 +45,21 @@ pmpt/
 
 2. **3D SpherePoint Mapping:**
    - Plaintext is mapped into 3D quadratic space:
+     ```markdown 
      \[
      SpherePoint = (x, y, z)
      \]
-
+     ```
 3. **Dynamic Transformations:**
    - Secure S-Box substitutions and Gaussian noise are applied to obfuscate coordinates probabilistically.
 
 4. **Ring Metadata Validation:**
    - A modular quadratic relationship between public and private points verifies encryption integrity:
+     ```markdown
      \[
      R = (A_x B_x + A_y B_y + A_z B_z) \pmod{N}
      \]
-
+     ```
 5. **PMPT-HMAC for Signatures:**
    - Probabilistic noise and private keys generate signatures that are verifiable yet unique for every input.
 
@@ -131,7 +131,7 @@ The mathematical soundness of PMPT, including its modular arithmetic, secret sha
 ---
 
 ## **Security Guarantees**
-- **Confidentiality**: Without the private SpherePoint, decryption is infeasible even with knowledge of \( N \).
+- **Confidentiality**: Without the private SpherePoint, decryption is infeasible even with knowledge of ```\( N \)```.
 - **Integrity**: Ring Metadata ensures ciphertext and signature validation.
 - **Forward Security**: Probabilistic noise obfuscation ensures ciphertext uniqueness.
 - **Resilience to Cryptanalysis**: Modular arithmetic and 3D transformations create a fundamentally new cryptographic structure.
