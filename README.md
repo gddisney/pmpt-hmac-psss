@@ -148,7 +148,7 @@ We welcome contributions! Feel free to open issues, submit pull requests, or dis
 ---
 
 ## **License**
-This project is licensed under the **MIT License**.
+This project is licensed under the **Apache 2.0 License**.
 
 ---
 
