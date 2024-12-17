@@ -1,4 +1,4 @@
-```markdown
+
 # Probabilistic Modular Point Transformation (PMPT): Mathematical Proof and Justification
 
 ## 1. Introduction
@@ -135,4 +135,3 @@ PMPT's combination of prime-based Shamir's shares, 3D SpherePoints, Gaussian noi
 - Unique (3D space and prime-adjusted shares are innovative and unfamiliar to standard cryptanalysis).
 
 This makes PMPT resistant to known cryptographic attacks and well-positioned for future challenges, including post-quantum threats.
-```
